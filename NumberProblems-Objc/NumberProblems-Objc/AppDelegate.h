@@ -11,7 +11,8 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
+-(int) multiplied:(int)multiple;
+- (int)iterateCount:(int)number;
+-(float)divide:(float)x;
 @end
 
